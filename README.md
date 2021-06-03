@@ -30,8 +30,7 @@ Note:(Make sure that you run pip install tabula-py in the terminal to install th
 <br>
 <h2>Please Note:</h2>
 This code isnt perfect by any means, it is meant to be refined and used appropriately.<br>
-I have done this solely to demonstrate how school transcripts(Either in .pdf or .png formats) can be tabulated by code.<br>
-The data will need to be cleaned and refined in order to be presentable 
+I have done this solely to demonstrate how school transcripts(Either in .pdf or .png formats) can be tabulated by code.
 <br>
 <h2>References:</h2>
 https://www.youtube.com/watch?v=4DrCIVS5U3Y<br>
