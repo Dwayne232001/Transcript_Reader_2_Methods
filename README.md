@@ -13,7 +13,7 @@ Note:(Make sure you run pip install pytesseract in the terminal to install the m
 4)You are good to go!!!!!<br>
 <br>
 The main problem with this output is that it is not ordered and thus the data which you get will need to be refined alot using different<br>
-modules like regex etc. This is why I have chosen "Method 2" as my means of getting ordered data from a transcript.<br>
+modules like regex etc. This is why I have chosen "Method 2" as my means of getting ordered data from a transcript.
 <br>
 <h2>Method 2:</h2>
 Method 2 is much better than Method 1 as I will be obtaining the output in the form of a data frame which is organised to some extent and will need a little refining
@@ -32,3 +32,9 @@ Note:(Make sure that you run pip install tabula-py in the terminal to install th
 This code isnt perfect by any means, it is meant to be refined and used appropriately.<br>
 I have done this solely to demonstrate how school transcripts(Either in .pdf or .png formats) can be tabulated by code.<br>
 The data will need to be cleaned and refined in order to be presentable 
+<br>
+<h2>References:</h2>
+https://www.youtube.com/watch?v=4DrCIVS5U3Y<br>
+https://github.com/UB-Mannheim/tesseract/wiki (To download the tesseract.exe file on windows)<br>
+https://towardsdatascience.com/scraping-table-data-from-pdf-files-using-a-single-line-in-python-8607880c750<br>
+https://stackoverflow.com/questions/44490203/java-not-found-in-using-tabula-py<br>
