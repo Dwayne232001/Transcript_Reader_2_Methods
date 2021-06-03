@@ -1,9 +1,9 @@
 # Transcript_Reader_2_Methods
-A School Transcript Reader which gives data in a .csv file.<br><br>
+A School Transcript Reader which gives data in a .csv or .txt file (stored in the same file after running the code).<br><br>
 Note:This repo already contains test files (You can change "Sample_Transcript_1.pdf" to "Sample_Transcript_2.pdf" in the python files for different cases)<br>
 <h2>Method 1:</h2>
 So basically lets go for Method 1 which is using Google's Tesseract technology to convert image to text:<br>
-In order to make this work you will firstly need to convert the pdf to an image either in python or through the internet(I did that through the internet)<br>
+In order to make this work you will firstly need to convert the pdf to an image either in python or through the internet (I did that through the internet)<br>
 Note:(Make sure you run pip install pytesseract in the terminal to install the module)<br>
 1)You will need to download Tesseract setup file over here:<br>
   https://github.com/UB-Mannheim/tesseract/wiki<br>
