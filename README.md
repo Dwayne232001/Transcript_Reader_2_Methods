@@ -1,16 +1,29 @@
-# Transcript_Readeer_2_Methods
-A School Transcript Reader which gives data in a .csv file.
-
+# Transcript_Reader_2_Methods
+A School Transcript Reader which gives data in a .csv file.<br><br>
+Note:This repo already contains test files<br>
 <h2>Method 1:</h2>
-So basically lets go for method 1 which is using Google's Tesseract technology to convert image to text:<br>
+So basically lets go for Method 1 which is using Google's Tesseract technology to convert image to text:<br>
+In order to make this work you will firstly need to convert the pdf to an image either in python or through the internet(I did that through the internet)<br>
+Note:(Make sure you run pip install pytesseract in the terminal to install the module)<br>
 1)You will need to download Tesseract setup file over here:<br>
   https://github.com/UB-Mannheim/tesseract/wiki<br>
-2)You will need to download the Method 1 file<br>
-3)Replace the "vazni" in tess.pytesseract.tesseract_cmd=r"C:\Users\vazni\AppData\Local\Programs\Tesseract-OCR\tesseract.exe" with your<br>
+2)You will need to download the Repo<br>
+3)Replace the "vazni" in tess.pytesseract.tesseract_cmd=r"C:\Users\vazni\AppData\Local\Programs\Tesseract-OCR\tesseract.exe" <br>with your
   username therefore it will be tess.pytesseract.tesseract_cmd=r"C:\Users\<USERNAME>\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"<br>
 4)You are good to go!!!!!<br>
 <br>
 The main problem with this output is that it is not ordered and thus the data which you get will need to be refined alot using different<br>
 modules like regex etc. This is why I have chosen "Method 2" as my means of getting ordered data from a transcript.<br>
-
-
+<br>
+<h2>Method 2:</h2>
+Method 2 is much better than Method 1 as I will be obtaining the output in the form of a data frame which is organised to some extent and will need a little refining
+I will be using tabula in order to not only get the tables from the pdf file but also to convert them into an organised text file or csv file.<br>
+Note:(Make sure that you run pip install tabula-py in the terminal to install the module)<br>
+1)You will need to download the Repo<br>
+2)You will need to download Java or else you will get a JavaNotFoundError<br>
+3)You will need to type "Edit the system environment variables" in the Windows search bar and select it.<br>
+4)You will need to click on "Environment Variables" under "Advanced".<br>
+5)Under the System Variables click Path and then press the Edit... instead of New. <br>
+  Then in the next screen (Edit environment variable for the Path variable) click New and add the address, <br>
+  e.g. C:\Program Files (x86)\Java\jre1.8.0_201\bin. Press OK and the Path variable will be appended/updated.<br>
+5)You are good to go!!!!!!
